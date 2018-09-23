@@ -1,0 +1,17 @@
+omdb/__init__.py,sha256=6EjlrAPjCb4PPHeFI2X-2M4xTfZ3dsIU1BnLZ8qMiBI,318
+omdb/__pkg__.py,sha256=ShjhrtIAxDVU302yjexvYj7vm0mfEQqfJSs040vBvX4,288
+omdb/_compat.py,sha256=eH3fagV2b_VqcsXSuQWVMrFXssrjDHpwbPnXQukjoDY,617
+omdb/api.py,sha256=p2tcMUC1GVYTCh86YVUwzGjGZjGyRPHXY2tQFO4B5Dw,1199
+omdb/client.py,sha256=2-ZTaIWnU9LRoqWyt91hm8FQBXpsVJElLE5L22onP6s,5048
+omdb-0.10.0.dist-info/DESCRIPTION.rst,sha256=EwxsmT66HkDzXV43614DWk-DpKqHYqJGB6_iYZBe8nA,15431
+omdb-0.10.0.dist-info/METADATA,sha256=DK-x3zlCgzOQBfdEMzIzfMQ_tD9NlwoD1jmhMxP1ldA,16357
+omdb-0.10.0.dist-info/RECORD,,
+omdb-0.10.0.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+omdb-0.10.0.dist-info/metadata.json,sha256=VXN014ha_U68o5bWyHUqL4M_m1vB1unfPnKoDqsi6-8,1061
+omdb-0.10.0.dist-info/top_level.txt,sha256=5ToHaezojhdIJuiVVdlfBOVF8LnJDLnerkPJ9oSArps,5
+omdb-0.10.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+omdb/api.pyc,,
+omdb/__init__.pyc,,
+omdb/client.pyc,,
+omdb/__pkg__.pyc,,
+omdb/_compat.pyc,,

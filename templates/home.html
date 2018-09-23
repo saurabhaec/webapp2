@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block headdiv %}
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-4">Open Movie</h1>
+    <p class="lead"> The OMDb RESTful web service API is used to obtain movie information, all content and images on the site are contributed and maintained by OMDb users.  </p>
+    </div>
+{% endblock %}
+{% block content %}
+<div class="card-deck mb-3 text-center">
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">Add</h4>
+    </div>
+    <div class="card-body">
+       <p>To add a new movie to the database </p>
+       <a href="/view/add" class="btn btn-lg btn-block btn-primary">Add New Movie</a>
+    </div>
+  </div>
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">Movies</h4>
+    </div>
+    <div class="card-body">
+      
+      <p>Movies stored in the database  </p>
+      <p>Edit a movie from the database </p>
+
+      <a  href="/view/list" class="btn btn-lg btn-block btn-primary">View Movies Lists</a>
+    </div>
+  </div>
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">Search</h4>
+    </div>
+    <div class="card-body">
+        <p>Search a movie from the database</p>
+         <a href="/view/search" class="btn btn-lg btn-block btn-primary"> Search Movies</a>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block footer%}
+<footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+      <div class="col-12 col-md">
+        <small class="d-block mb-3 text-muted">&copy; 2018</small>
+      </div>
+    </div>
+  </footer>
+</div>
+
+{% endblock %}
+

@@ -1,0 +1,18 @@
+application: astral-comfort-217004
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+libraries:
+  - name: jinja2
+    version: latest
+  - name: webapp2
+    version: latest
+
+handlers:
+  - url: /(robots\.txt|favicon\.ico)
+    static_files: static/\1
+    upload: static/.*
+
+  - url: /.*
+    script: main.app

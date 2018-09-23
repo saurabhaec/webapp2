@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>The Open Movie Apps</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        html {
+            font-size: 14px;
+        }
+            @media (min-width: 768px) {
+            html {
+                font-size: 16px;
+            }
+            }
+            .container {
+            max-width: 960px;
+            }
+
+            .pricing-header {
+            max-width: 700px;
+            }
+
+            .card-deck .card {
+            min-width: 220px;
+            }
+
+            .card-text {
+                min-height: 80px;
+            }
+
+
+    </style>
+  </head>
+  <body>
+
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+      <h5 class="my-0 mr-md-auto font-weight-normal"> <a class="p-2" href="/">Open Movie</h5>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="/view/add">Add New Movie</a>
+        <a class="p-2 text-dark" href="/view/list">Movies List</a>
+        <a class="p-2 text-dark" href="/view/search">Search Movies</a>
+      </nav>
+      <a class="btn btn-outline-primary" href="/view/lucky">Feeling Lucky</a>
+    </div>
+<div class="body-css">
+
+
+    {% block headdiv %}{% endblock %}
+
+<div class="container">
+    {% block content %}{% endblock %}
+    {% block footer %}{% endblock %}
+</div>
+
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="http://getbootstrap.com/docs/4.1/assets/js/vendor/holder.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script>
+      Holder.addTheme('thumb', {
+        bg: '#55595c',
+        fg: '#eceeef',
+        text: 'Thumbnail'
+      });
+    </script>
+  </body>
+</html>
