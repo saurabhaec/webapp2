@@ -133,7 +133,6 @@ class ImportHandler(BaseHandler):
         number = 1;
         while(1):
             url = base_url+'&page='+str(number)
-            print(url)
             response = urllib2.urlopen(url)
             data = eval(json.dumps(json.load(response))) 
             mdb_key = ndb.Key('MoviesDb', 'list' or '*notitle*')
