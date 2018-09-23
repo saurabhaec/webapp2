@@ -15,9 +15,3 @@ indexes:
   properties:
   - name: date
     direction: desc
-
-- kind: astral-comfort-217004
-  ancestor: yes
-  properties:
-  - name: date
-    direction: desc
